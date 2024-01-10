@@ -1,6 +1,6 @@
-# Write
+# Title
 
-Write is a minimalist text editor designed for simplicity and ease of use. It allows users to create, edit, and manage text documents efficiently.
+Mern Ecommerce project
 
 ## Features
 
@@ -18,5 +18,5 @@ Write is a minimalist text editor designed for simplicity and ease of use. It al
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/write.git
+  git clone https://github.com/geektechsolutiosns/mern-ecommerce.git
    cd write
