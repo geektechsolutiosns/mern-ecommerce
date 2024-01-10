@@ -1,13 +1,11 @@
-# Title
-
-Mern Ecommerce project
+# MERN Ecommerce Project
 
 ## Features
 
-- **Clean Interface:** Intuitive and clutter-free UI for distraction-free writing.
+- **Clean Interface:** Intuitive and clutter-free UI.
 - **Document Management:** Create, edit, save, and delete text documents.
-- **Customization:** Choose themes and font settings for personalized writing experiences.
-- **Export and Sharing:** Export documents in various formats (e.g., Markdown, plain text) and share easily.
+- **Customization:** Personalize with themes and font settings.
+- **Export and Sharing:** Easily export documents in various formats.
 
 ## Requirements
 
@@ -16,7 +14,9 @@ Mern Ecommerce project
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the Repository:**
+
    ```bash
-  git clone https://github.com/geektechsolutiosns/mern-ecommerce.git
-   cd write
+   git clone https://github.com/geektechsolutiosns/mern-ecommerce.git
+   cd mern-ecommerce
+
