@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    overflow-x: hidden;
+    font-family: monospace;
+    background-color: #bebece;
+}
+
+/* <div className='h-[100vh] w-[50vw] bg-blue-300 fixed top-0 left-0 z-10 p-4 md:hidden'> */
+img{
+    width: 100%;
+}
+.sidebar {
+    height: 100vh;
+    width: 50vw;
+    background-color: #5555e8;
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    z-index: 10;
+    padding: 1rem;
+    transform: translateX(-101%);
+    transition: transform 0.5s ease-in-out;
+}
+.sidebar.show{
+transform: translateX(0);
+}
+.categories-list > li {
+text-decoration: none;
+font-size: 1rem;
+text-transform: capitalize;
+}
+
+@media (min-width: 768px) {
+    .sidebar{
+        display: none;
+    }
+  }
+
+  @media (max-width: 458px) {
+    .sidebar{
+       width: 100vw;
+    }
+  }

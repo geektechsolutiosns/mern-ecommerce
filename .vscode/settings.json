@@ -1,0 +1,5 @@
+{
+    "css.lint.emptyRules": "warning",
+    "css.lint.fontFaceProperties": "warning",
+    "css.lint.unknownAtRules": "ignore"
+}
